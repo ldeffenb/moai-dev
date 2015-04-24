@@ -9,8 +9,6 @@
 #include <moai-android/moaiext-jni.h>
 #include <moai-android-facebook/MOAIFacebookAndroid.h>
 
-#if AKU_WITH_ANDROID_FACEBOOK
-
 extern JavaVM* jvm;
 
 //================================================================//
@@ -318,5 +316,3 @@ extern "C" JNIEXPORT void JNICALL Java_com_ziplinegames_moai_MoaiFacebook_AKUNot
 	MOAIFacebookAndroid::Get ().NotifyRequestFailed ( );
 }
 
-
-#endif

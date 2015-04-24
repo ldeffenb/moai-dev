@@ -9,8 +9,6 @@
 #include <moai-android/moaiext-jni.h>
 #include <moai-android-flurry/MOAIFlurryAndroid.h>
 
-#if AKU_WITH_ANDROID_FLURRY
-
 //================================================================//
 // lua
 //================================================================//
@@ -111,4 +109,3 @@ void MOAIFlurryAndroid::RegisterLuaClass ( MOAILuaState& state ) {
 	luaL_register ( state, 0, regTable );
 }
 
-#endif

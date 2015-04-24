@@ -4,10 +4,6 @@
 #ifndef	MOAITAPJOYANDROID_H
 #define	MOAITAPJOYANDROID_H
 
-#include <host-modules/aku_modules_android_config.h>
-
-#if AKU_WITH_ANDROID_TAPJOY
-
 #include <moai-core/headers.h>
 #include <moai-android/JniUtils.h>
 
@@ -48,7 +44,5 @@ public:
 			~MOAITapjoyAndroid	();
 	void	RegisterLuaClass	( MOAILuaState& state );
 };
-
-#endif  //DISABLE_TAPJOY
 
 #endif  //MOAITAPJOY_H

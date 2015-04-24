@@ -7,8 +7,6 @@
 #include <moai-android/moaiext-jni.h>
 #include <moai-android-chartboost/MOAIChartBoostAndroid.h>
 
-#if AKU_WITH_ANDROID_CHARTBOOST
-
 //================================================================//
 // lua
 //================================================================//
@@ -103,5 +101,3 @@ extern "C" JNIEXPORT void JNICALL Java_com_ziplinegames_moai_MoaiChartBoost_AKUI
 	ZLLog::LogF ( ZLLog::CONSOLE, "Java_com_ziplinegames_moai_MoaiChartBoost_AKUInvokeListener\n" );
 	MOAIChartBoostAndroid::Get ().InvokeListener (( u32 )eventID );
 }
-
-#endif //AKU_WITH_ANDROID_CHARTBOOST

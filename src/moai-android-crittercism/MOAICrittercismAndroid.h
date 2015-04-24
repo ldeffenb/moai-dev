@@ -4,10 +4,6 @@
 #ifndef	MOAICRITTERCISMANDROID_H
 #define	MOAICRITTERCISMANDROID_H
 
-#include <host-modules/aku_modules_android_config.h>
-
-#if AKU_WITH_ANDROID_CRITTERCISM
-
 #include <moai-core/headers.h>
 
 //================================================================//
@@ -37,6 +33,4 @@ public:
 	void	RegisterLuaClass			( MOAILuaState& state );
 };
 
-#endif  //DISABLE_CRITTERCISM
-
-#endif  //MOAICRITTERCISM_H
+#endif	/* MOAICRITTERCISMANDROID_H */

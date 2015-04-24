@@ -7,8 +7,6 @@
 #include <moai-android/moaiext-jni.h>
 #include <moai-android-vungle/MOAIVungleAndroid.h>
 
-#if AKU_WITH_ANDROID_VUNGLE
-
 //================================================================//
 // lua
 //================================================================//
@@ -107,4 +105,3 @@ extern "C" JNIEXPORT void JNICALL Java_com_ziplinegames_moai_MoaiVungle_AKUOnVie
 	}
 }
 
-#endif

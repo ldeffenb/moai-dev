@@ -9,8 +9,6 @@
 #include <moai-android/moaiext-jni.h>
 #include "MOAIGooglePlayServicesAndroid.h"
 
-#if AKU_WITH_ANDROID_PLAYSERVICES
-
 extern JavaVM* jvm;
 
 //================================================================//
@@ -292,4 +290,3 @@ extern "C" JNIEXPORT void JNICALL Java_com_ziplinegames_moai_MoaiGooglePlayServi
 	MOAIGooglePlayServicesAndroid::Get ().NotifyConnectionComplete ();
 }
 
-#endif

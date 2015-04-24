@@ -9,8 +9,6 @@
 #include <moai-android/moaiext-jni.h>
 #include <moai-android-twitter/MOAITwitterAndroid.h>
 
-#if AKU_WITH_ANDROID_TWITTER
-
 extern JavaVM* jvm;
 
 //================================================================//
@@ -309,4 +307,3 @@ extern "C" JNIEXPORT void JNICALL Java_com_ziplinegames_moai_MoaiTwitter_AKUNoti
 	MOAITwitterAndroid::Get ().NotifyTweetComplete ( code );
 }
 
-#endif //AKU_WITH_ANDROID_TWITTER

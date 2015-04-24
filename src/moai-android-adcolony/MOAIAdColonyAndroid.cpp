@@ -9,8 +9,6 @@
 #include <moai-android/moaiext-jni.h>
 #include <moai-android-adcolony/MOAIAdColonyAndroid.h>
 
-#if AKU_WITH_ANDROID_ADCOLONY
-
 //================================================================//
 // lua
 //================================================================//
@@ -124,4 +122,3 @@ extern "C" JNIEXPORT void JNICALL Java_com_ziplinegames_moai_MoaiAdColony_AKUInv
 	MOAIAdColonyAndroid::Get ().InvokeListener (( u32 )eventID );
 }
 
-#endif

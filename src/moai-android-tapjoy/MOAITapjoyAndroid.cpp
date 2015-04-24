@@ -131,4 +131,3 @@ extern "C" JNIEXPORT void JNICALL Java_com_ziplinegames_moai_MoaiTapjoy_AKUInvok
 	}
 }
 
-#endif

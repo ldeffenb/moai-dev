@@ -9,8 +9,6 @@
 #include <moai-android/moaiext-jni.h>
 #include <moai-android-crittercism/MOAICrittercismAndroid.h>
 
-#if AKU_WITH_ANDROID_CRITTERCISM
-
 extern JavaVM* jvm;
 
 //================================================================//
@@ -186,5 +184,3 @@ void MOAICrittercismAndroid::RegisterLuaClass ( MOAILuaState& state ) {
 
 	luaL_register ( state, 0, regTable );
 }
-
-#endif
