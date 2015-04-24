@@ -4,6 +4,8 @@
 #ifndef MOAIFLURRYANDROID_H
 #define MOAIFLURRYANDROID_H
 
+
+
 #include <moai-core/headers.h>
 #include <moai-android/JniUtils.h>
 
@@ -31,5 +33,7 @@ public:
 			~MOAIFlurryAndroid		();
 	void	RegisterLuaClass		( MOAILuaState& state );
 };
+
+
 
 #endif  //MOAIFLURRY_H

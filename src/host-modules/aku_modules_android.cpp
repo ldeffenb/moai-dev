@@ -47,9 +47,6 @@ void AKUModulesAndroidAppFinalize () {
 		AKUAndroidVungleAppFinalize ();
 	#endif
 
-	#if AKU_WITH_ANDROID_TWITTER
-//		AKUAndroidTwitterAppFinalize ();
-	#endif
 }
 
 //----------------------------------------------------------------//
@@ -91,9 +88,6 @@ void AKUModulesAndroidAppInitialize () {
 		AKUAndroidVungleAppInitialize ();
 	#endif
 
-	#if AKU_WITH_ANDROID_TWITTER
-//		AKUAndroidTwitterAppInitialize ();
-	#endif
 }
 
 //----------------------------------------------------------------//
@@ -135,9 +129,6 @@ void AKUModulesAndroidContextInitialize () {
 		AKUAndroidVungleContextInitialize ();
 	#endif
 	
-	#if AKU_WITH_ANDROID_TWITTER
-//		AKUAndroidTwitterContextInitialize ();
-	#endif
 }
 
 //----------------------------------------------------------------//

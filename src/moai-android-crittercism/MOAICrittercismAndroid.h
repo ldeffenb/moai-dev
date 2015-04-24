@@ -4,6 +4,8 @@
 #ifndef	MOAICRITTERCISMANDROID_H
 #define	MOAICRITTERCISMANDROID_H
 
+
+
 #include <moai-core/headers.h>
 
 //================================================================//
@@ -33,4 +35,6 @@ public:
 	void	RegisterLuaClass			( MOAILuaState& state );
 };
 
-#endif	/* MOAICRITTERCISMANDROID_H */
+
+
+#endif  //MOAICRITTERCISM_H

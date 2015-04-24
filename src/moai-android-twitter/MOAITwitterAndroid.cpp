@@ -306,4 +306,3 @@ extern "C" JNIEXPORT void JNICALL Java_com_ziplinegames_moai_MoaiTwitter_AKUNoti
 
 	MOAITwitterAndroid::Get ().NotifyTweetComplete ( code );
 }
-

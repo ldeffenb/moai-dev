@@ -4,6 +4,7 @@
 #ifndef	MOAICHARTBOOSTANDROID_H
 #define	MOAICHARTBOOSTANDROID_H
 
+
 #include <moai-core/headers.h>
 #include <moai-android/JniUtils.h>
 
@@ -38,4 +39,5 @@ public:
 		void			RegisterLuaClass				( MOAILuaState& state );
 };
 
-#endif	/* MOAICHARTBOOSTANDROID_H */
+
+#endif  //MOAICHARTBOOST_H

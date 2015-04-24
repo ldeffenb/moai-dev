@@ -4,6 +4,8 @@
 #ifndef MOAIADCOLONYANDROID_H
 #define MOAIADCOLONYANDROID_H
 
+
+
 #include <moai-core/headers.h>
 #include <moai-android/JniUtils.h>
 
@@ -40,4 +42,5 @@ public:
 	void	RegisterLuaClass		( MOAILuaState& state );
 };
 
-#endif	/* MOAIADCOLONYANDROID_H */
+
+#endif  //MOAIADCOLONY_H

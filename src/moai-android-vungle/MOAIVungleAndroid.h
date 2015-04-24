@@ -36,4 +36,5 @@ public:
 	void	RegisterLuaClass		( MOAILuaState& state );
 };
 
+
 #endif  //MOAIADCOLONY_H

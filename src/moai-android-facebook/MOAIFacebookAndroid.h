@@ -81,4 +81,6 @@ public:
 	void	RegisterLuaClass		( MOAILuaState& state );
 };
 
-#endif	/* MOAIFACEBOOKANDROID_H */
+
+
+#endif  //MOAIFACEBOOK_H

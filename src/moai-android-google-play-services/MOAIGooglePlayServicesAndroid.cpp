@@ -290,3 +290,4 @@ extern "C" JNIEXPORT void JNICALL Java_com_ziplinegames_moai_MoaiGooglePlayServi
 	MOAIGooglePlayServicesAndroid::Get ().NotifyConnectionComplete ();
 }
 
+#

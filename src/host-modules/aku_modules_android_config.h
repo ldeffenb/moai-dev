@@ -53,12 +53,8 @@
 	  #define AKU_WITH_ANDROID_TWITTER 0
   #endif
 
-	#ifndef AKU_WITH_ANDROID_TWITTER
-		#define AKU_WITH_ANDROID_TWITTER 0
-	#endif
-
-	#ifndef AKU_WITH_ANDROID_VUNGLE
-		#define AKU_WITH_ANDROID_VUNGLE 0
-	#endif
+  #ifndef AKU_WITH_ANDROID_VUNGLE
+	  #define AKU_WITH_ANDROID_VUNGLE 0
+  #endif
 
 #endif

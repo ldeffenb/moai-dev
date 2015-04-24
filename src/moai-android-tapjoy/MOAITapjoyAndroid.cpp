@@ -1,13 +1,12 @@
 // Copyright (c) 2010-2011 Zipline Games, Inc. All Rights Reserved.
 // http://getmoai.com
 
+
 #include "moai-core/pch.h"
 #include "moai-sim/pch.h"
 
 #include <moai-android/moaiext-jni.h>
 #include <moai-android-tapjoy/MOAITapjoyAndroid.h>
-
-#if AKU_WITH_ANDROID_TAPJOY
 
 //================================================================//
 // lua

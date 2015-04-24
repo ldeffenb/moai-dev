@@ -184,3 +184,4 @@ void MOAICrittercismAndroid::RegisterLuaClass ( MOAILuaState& state ) {
 
 	luaL_register ( state, 0, regTable );
 }
+

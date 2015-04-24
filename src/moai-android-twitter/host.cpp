@@ -4,8 +4,6 @@
 #include <moai-android-twitter/host.h>
 #include <moai-android-twitter/MOAITwitterAndroid.h>
 
-#if AKU_WITH_ANDROID_TWITTER
-
 //================================================================//
 // aku
 //================================================================//
@@ -24,5 +22,3 @@ void AKUAndroidTwitterContextInitialize () {
 	REGISTER_LUA_CLASS ( MOAITwitterAndroid );
 	
 }
-
-#endif //AKU_WITH_ANDROID_TWITTER

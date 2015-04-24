@@ -4,6 +4,7 @@
 #ifndef	MOAITAPJOYANDROID_H
 #define	MOAITAPJOYANDROID_H
 
+
 #include <moai-core/headers.h>
 #include <moai-android/JniUtils.h>
 
@@ -44,5 +45,6 @@ public:
 			~MOAITapjoyAndroid	();
 	void	RegisterLuaClass	( MOAILuaState& state );
 };
+
 
 #endif  //MOAITAPJOY_H
